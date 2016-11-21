@@ -60,19 +60,19 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav side-nav">
                 <li>
-                    <a href="<?= site_url('Admin') ?>"><i class="fa fa-fw fa-paper-plane-o"></i> Angkot</a>
+                    <a href="<?= site_url('Admin') ?>"><i class="fa fa-fw fa-bus"></i> Angkot</a>
                 </li>
                 <li>
-                    <a href="<?= site_url('Jalan') ?>"><i class="fa fa-fw fa-paper-plane-o"></i> Jalan</a>
+                    <a href="<?= site_url('Jalan') ?>"><i class="fa fa-fw fa-road"></i> Jalan</a>
                 </li>
                 <li>
-                    <a href="<?= site_url('Terminal') ?>"><i class="fa fa-fw fa-user-plus"></i>  Terminal</a>
+                    <a href="<?= site_url('Terminal') ?>"><i class="fa fa-fw fa-subway"></i>  Terminal</a>
                 </li>
                 <li>
-                    <a href="<?= site_url('Kritiksaran') ?>"><i class="fa fa-fw fa-paper-plane-o"></i> Kritik Saran</a>
+                    <a href="<?= site_url('Kritiksaran') ?>"><i class="fa fa-fw fa-pencil"></i> Kritik Saran</a>
                 </li>
                 <li>
-                    <a href="#" data-toggle="collapse" data-target="#submenu-2"><i class="fa fa-fw fa-config"></i>  Setting <i class="fa fa-fw fa-angle-down pull-right"></i></a>
+                    <a href="#" data-toggle="collapse" data-target="#submenu-2"><i class="fa fa-fw fa-gear"></i>  Setting <i class="fa fa-fw fa-angle-down pull-right"></i></a>
                     <ul id="submenu-2" class="collapse">
                         <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 2.1</a></li>
                         <li><a href="#"><i class="fa fa-angle-double-right"></i> SUBMENU 2.2</a></li>
