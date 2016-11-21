@@ -1,13 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="<?=base_url()?>assets/bootstrap/css/bootstrap.css" media ="screen">
-</head>
-<body>
+<?php $this->load->view('header'); ?>
+	<div id="page-wrapper">
 		<div class="container-fluid">
-		<a href="<?php echo site_url('jalan/insert'); ?>"><button type="button" class="btn btn-default">insert</button></a>
+			<div class="col-md-12">
+				<h3 align="center">Rute Jalan</h3>
+			</div>
+		<a href="<?php echo site_url('jalan/insert'); ?>"><button type="button" class="btn btn-default"><i class="fa fa-user-plus"></i> Insert</button></a>
 		<div class="table-responsive">
 			<table class="table table-hover">
 				<thead>
@@ -33,7 +30,5 @@
 			</table>
 		</div>
 		</div>
-</body>
-</html>
-<script src="<?=base_url()?>assets/bootstrap/js/jquery-2.1.4.min.js"></script>
-<script src="<?=base_url()?>assets/bootstrap/js/bootstrap.js"></script>
+	</div>
+<?php $this->load->view('footer'); ?>

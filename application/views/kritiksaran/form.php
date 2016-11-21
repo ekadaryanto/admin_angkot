@@ -1,13 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="<?=base_url()?>assets/bootstrap/css/bootstrap.css" media ="screen">
-	<script src="<?=base_url()?>assets/bootstrap/js/jquery-2.1.4.min.js"></script>
-	<script src="<?=base_url()?>assets/bootstrap/js/bootstrap.js"></script>
-</head>
-<body>
+<?php $this->load->view('header'); ?>
+	
+	<div id="page-wrapper">
 	<form action="" method="POST" role="form">
 		<legend>Form Komentar</legend>
 
@@ -20,5 +13,5 @@
 	
 		<button type="submit" class="btn btn-primary">Submit</button>
 	</form>
-</body>
-</html>
+	</div>
+<?php $this->load->view('footer'); ?>

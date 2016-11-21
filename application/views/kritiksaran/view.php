@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
+<?php $this->load->view('header'); ?>
+	
+	<div id="page-wrapper">
 	<b>Kritik dan Saran</b><br>
 	<br>
 	<!-- //isi komentar dari table 'post' -->
@@ -14,5 +10,5 @@
 	<br>
 	login to comment
 
-</body>
-</html>
+	</div>
+<?php $this->load->view('footer'); ?>

@@ -1,11 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="<?=base_url()?>assets/bootstrap/css/bootstrap.css" media ="screen">
-</head>
-<body>
+<?php $this->load->view('header'); ?>
+	
+	<div id="page-wrapper">
+	<div class="container-fluid">
 	<form action="<?php echo site_url('jalan/prosesinsert') ?>" method="POST" role="form">
 		<legend>Form title</legend>
 	
@@ -24,7 +20,6 @@
 		id_angkot <input type="text" name="id_angkot"><br>
 		<input type="submit" value="add">
 	</form>
-</body>
-</html>
-<script src="<?=base_url()?>assets/bootstrap/js/jquery-2.1.4.min.js"></script>
-<script src="<?=base_url()?>assets/bootstrap/js/bootstrap.js"></script>
+	</div>
+	</div>
+<?php $this->load->view('footer'); ?>

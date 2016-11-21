@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title></title>
-	<link rel="stylesheet" href="<?=base_url()?>assets/bootstrap/css/bootstrap.css" media ="screen">
-</head>
-<body>
+<?php $this->load->view('header'); ?>
+
+  <div id="page-wrapper">
 	<div class="container">
+  <div class="container-fluid">
 		<a href="<?php echo site_url('admin/insert'); ?>">
         <button type="button" class="btn btn-default btn-sm">
           <span class="glyphicon glyphicon-plus"></span> Insert
@@ -59,8 +55,8 @@
   			</tbody>
   			<?php } ?>
   		</table>
-	</div>
-</body>
-</html>
-<script src="<?=base_url()?>assets/bootstrap/js/jquery-2.1.4.min.js"></script>
-<script src="<?=base_url()?>assets/bootstrap/js/bootstrap.js"></script>
+      
+	</div><!-- container fluid -->
+  </div><!-- container -->
+  </div><!-- page wrapper -->
+  <?php $this->load->view('footer'); ?>

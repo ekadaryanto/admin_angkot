@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
+<?php $this->load->view('header'); ?>
+	<div id="page-wrapper">
 	<?php foreach ($sql as $key) { ?>
 	<form action="<?php echo site_url('jalan/processEdit') ?>" method="post">
 		<input type="hidden" name="id_jalan" value="<?php echo $key->id_jalan; ?>">
@@ -13,5 +8,5 @@
 		<input type="submit" value="edit">
 	</form>
 	<?php } ?>
-</body>
-</html>
+	</div>
+<?php $this->load->view('footer'); ?>

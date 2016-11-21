@@ -14,7 +14,7 @@ class Jalan extends CI_Controller {
 
 	public function insert($id){
 		$data['sql']=$this->m_jalan->getIdAngkot($id);
-		$this->load->view('angkot/add',$data);
+		$this->load->view('jalan/insert',$data);
 	}
 
 	public function prosesinsert(){

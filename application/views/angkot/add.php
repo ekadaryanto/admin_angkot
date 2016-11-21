@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-	<link rel="stylesheet" href="<?=base_url()?>assets/bootstrap/css/bootstrap.css">
-</head>
-<body>
+<?php $this->load->view('header'); ?>
+
+<div class="container">
 	<div class="container-fluid">
 		<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
 			
@@ -30,6 +25,7 @@
 				<button type="submit" class="btn btn-primary">Submit</button>
 			</form>	
 		</div>
+	</div>
 	</div>
 </body>
 </html>

@@ -1,13 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Document</title>
-</head>
-<body>
+<?php $this->load->view('header'); ?>
+	
+	<div id="page-wrapper">
 	<form action="<?php site_url('kritiksaran/DoComment') ?>" method="post">
 		<textarea name="" id="" cols="30" rows="10"></textarea>
 		<input type="submit" value="Comment">	
 	</form>
-</body>
-</html>
+	</div>
+<?php $this->load->view('footer'); ?>
