@@ -4,22 +4,17 @@
 	<div class="container-fluid">
 	<form action="<?php echo site_url('jalan/prosesinsert') ?>" method="POST" role="form">
 		<legend>Form title</legend>
-	
+		<input type="hidden" name="id_jalan">
 		<div class="form-group">
-			<label for="">label</label>
-			<input type="text" class="form-control" id="" placeholder="Input field">
+			<label for="">Nama Jalan</label>
+			<input type="text" class="form-control" id="" name="nama_jalan" placeholder="Input field">
 		</div>
-	
+		<div class="form-group">
+			<label for="">Id Angkot</label>
+			<input type="text" class="form-control" id="" name="id_angkot" placeholder="Input field">
+		</div>
 		
 	
 		<button type="submit" class="btn btn-primary">Submit</button>
 	</form>
-	<form action="" method="post">
-		<input type="hidden" name="id_jalan">
-		nama_jalan <input type="text" name="nama_jalan"><br>
-		id_angkot <input type="text" name="id_angkot"><br>
-		<input type="submit" value="add">
-	</form>
-	</div>
-	</div>
 <?php $this->load->view('footer'); ?>
